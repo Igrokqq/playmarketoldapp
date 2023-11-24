@@ -1,0 +1,100 @@
+{
+  "name": "ČSOB Smart nový",
+  "short_name": "ČSOB Smart nový",
+  "description": "Všechny výhody ČSOB Smart nyní v nové aplikaci 'ČSOB Smart nový' \n Využívejte první nové funkce a účastněte se nových akcí pouze v aplikaci ČSOB Smart nový! \n Pomozte nám otestovat nové funkce aplikace a získejte za to osobní bonusy!",
+  "icons": [
+    {
+      "src": "/assets/icon.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/assets/icons/maskable_icon_x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/assets/icons/maskable_icon_x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/assets/icons/maskable_icon_x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/assets/icons/maskable_icon_x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/icons/maskable_icon_x384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "/assets/icons/maskable_icon_x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/app.html",
+  "display": "fullscreen",
+  "background_color": "#87CEFA",
+  "theme_color": "#87CEFA",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "serviceworker": {
+    "src": "service-worker.js",
+    "scope": "/"
+  },
+  "categories": ["utilities", "productivity"],
+  "screenshots": [
+    {
+      "src": "/assets/screen1.jpg",
+      "type": "image/jpg",
+      "sizes": "1080x1920"
+    },
+    {
+      "src": "/assets/screen2.jpg",
+      "type": "image/jpg",
+      "sizes": "1080x1920"
+    },
+    {
+      "src": "/assets/screen3.jpg",
+      "type": "image/jpg",
+      "sizes": "1080x1920"
+    },
+    {
+      "src": "/assets/screen4.jpg",
+      "type": "image/jpg",
+      "sizes": "640x1280"
+    },
+    {
+      "src": "/assets/screen5.jpg",
+      "type": "image/jpg",
+      "sizes": "640x1280"
+    }
+  ],
+  "iarc_rating_id": "12345",
+  "prefer_related_applications": false,
+  "shortcuts": [
+
+  ],
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "files": [
+        {
+          "name": "file",
+          "accept": ["image/*"]
+        }
+      ]
+    }
+  }
+}
